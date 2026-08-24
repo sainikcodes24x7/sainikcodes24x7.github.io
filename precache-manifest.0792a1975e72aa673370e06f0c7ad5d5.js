@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a717e2313d60a0a0b668bb0f6ddb5750",
+    "revision": "fa16acadc11caf5e0364f82b5526a64e",
     "url": "/index.html"
   },
   {
-    "revision": "e33504da6cf41f24770a",
-    "url": "/static/css/main.ea4a71aa.chunk.css"
+    "revision": "fc17b9310915db35345b",
+    "url": "/static/css/main.4053b350.chunk.css"
   },
   {
-    "revision": "6ef3ebe0c78aa401f423",
-    "url": "/static/js/2.7a6e9c8c.chunk.js"
+    "revision": "9ea16a49509265486109",
+    "url": "/static/js/2.745a7669.chunk.js"
   },
   {
-    "revision": "e33504da6cf41f24770a",
-    "url": "/static/js/main.8da27f44.chunk.js"
+    "revision": "fc17b9310915db35345b",
+    "url": "/static/js/main.e1838e82.chunk.js"
   },
   {
     "revision": "f4163cc1361175add5e6",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
     "url": "/static/media/Agustina.21f233e1.woff"
+  },
+  {
+    "revision": "9a10146814cfd650b6180d38700e974c",
+    "url": "/static/media/DSA_RoadmapFAANG.9a101468.pdf"
   },
   {
     "revision": "4457817ac2b9993c65e81aa05828fe9c",
@@ -50,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "/static/media/Montserrat-Regular.ee653992.ttf"
+  },
+  {
+    "revision": "2594324db5f688ad1e69473811ab4c86",
+    "url": "/static/media/Sainik_Khaddar_Resume.2594324d.pdf"
   },
   {
     "revision": "16559172ca1d4d552390b48f19e102ba",
@@ -258,6 +266,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "18e5a1d74a91b8e6686c239a0ea1b581",
     "url": "/static/media/sainikProfile.18e5a1d7.JPG"
+  },
+  {
+    "revision": "699eed3ea17ffc91d9bf10311703eb17",
+    "url": "/static/media/sainikdp.699eed3e.jpeg"
   },
   {
     "revision": "71cc9aa3b8cc725138d6ed1ed419e4b6",

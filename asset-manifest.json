@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.ea4a71aa.chunk.css",
-    "main.js": "/static/js/main.8da27f44.chunk.js",
-    "main.js.map": "/static/js/main.8da27f44.chunk.js.map",
+    "main.css": "/static/css/main.4053b350.chunk.css",
+    "main.js": "/static/js/main.e1838e82.chunk.js",
+    "main.js.map": "/static/js/main.e1838e82.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2781e2dc.js",
     "runtime-main.js.map": "/static/js/runtime-main.2781e2dc.js.map",
-    "static/js/2.7a6e9c8c.chunk.js": "/static/js/2.7a6e9c8c.chunk.js",
-    "static/js/2.7a6e9c8c.chunk.js.map": "/static/js/2.7a6e9c8c.chunk.js.map",
+    "static/js/2.745a7669.chunk.js": "/static/js/2.745a7669.chunk.js",
+    "static/js/2.745a7669.chunk.js.map": "/static/js/2.745a7669.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5e7e2e41d7cc8aa0598a7c079e3261b5.js": "/precache-manifest.5e7e2e41d7cc8aa0598a7c079e3261b5.js",
+    "precache-manifest.0792a1975e72aa673370e06f0c7ad5d5.js": "/precache-manifest.0792a1975e72aa673370e06f0c7ad5d5.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.ea4a71aa.chunk.css.map": "/static/css/main.ea4a71aa.chunk.css.map",
+    "static/css/main.4053b350.chunk.css.map": "/static/css/main.4053b350.chunk.css.map",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/DSA_RoadmapFAANG.pdf": "/static/media/DSA_RoadmapFAANG.9a101468.pdf",
+    "static/media/Sainik_Khaddar_Resume.pdf": "/static/media/Sainik_Khaddar_Resume.2594324d.pdf",
     "static/media/address_image.svg": "/static/media/address_image.16559172.svg",
     "static/media/animated_ashutosh.png": "/static/media/animated_ashutosh.eaf02c2d.png",
     "static/media/animated_logo.svg": "/static/media/animated_logo.dcd6dee2.svg",
@@ -50,6 +52,7 @@
     "static/media/pwa.png": "/static/media/pwa.71408db7.png",
     "static/media/pwclogo.jpg": "/static/media/pwclogo.0e936e6b.jpg",
     "static/media/sainikProfile.JPG": "/static/media/sainikProfile.18e5a1d7.JPG",
+    "static/media/sainikdp.jpeg": "/static/media/sainikdp.699eed3e.jpeg",
     "static/media/sainikpic.JPG": "/static/media/sainikpic.71cc9aa3.JPG",
     "static/media/sphs (2).jpeg": "/static/media/sphs (2).af658c94.jpeg",
     "static/media/stanford_logo.png": "/static/media/stanford_logo.2c497738.png",
@@ -60,8 +63,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2781e2dc.js",
-    "static/js/2.7a6e9c8c.chunk.js",
-    "static/css/main.ea4a71aa.chunk.css",
-    "static/js/main.8da27f44.chunk.js"
+    "static/js/2.745a7669.chunk.js",
+    "static/css/main.4053b350.chunk.css",
+    "static/js/main.e1838e82.chunk.js"
   ]
 }
