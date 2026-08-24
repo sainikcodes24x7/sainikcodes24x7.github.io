@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Header from "../../../components/header/Header";
 import Footer from "../../../components/footer/Footer";
 import TopButton from "../../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
@@ -11,7 +10,6 @@ export default class Error extends Component {
     const theme = this.props.theme;
     return (
       <div className="error-main">
-        <Header theme={this.props.theme} />
         <div className="error-class">
           <Fade bottom duration={2000} distance="40px">
             <h1>Woops</h1>

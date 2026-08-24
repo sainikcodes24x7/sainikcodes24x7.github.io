@@ -154,17 +154,17 @@ export const yellowTheme = {
 };
 
 export const materialDarkTheme = {
-  body: "#263238",
-  text: "#aeaeae",
+  body: "#181817",
+  text: "#f2f0eb",
   expTxtColor: "#000a12",
-  highlight: "#4f5b62",
-  dark: "#000a12",
-  secondaryText: "#aeaeae",
-  imageHighlight: "#607d8b",
+  highlight: "#2b2926",
+  dark: "#0e0f0f",
+  secondaryText: "#aaa7a1",
+  imageHighlight: "#ff5a2f",
   compImgHighlight: "#E6E6E6",
   jacketColor: "#8eacbb",
-  headerColor: "#34515e",
-  splashBg: "#4f5b62",
+  headerColor: "#ff5a2f",
+  splashBg: "#181817",
 };
 
 export const materialLightTheme = {
@@ -195,4 +195,4 @@ export const materialTealTheme = {
   splashBg: "#05505E",
 };
 
-export const chosenTheme = pinkTheme;
+export const chosenTheme = materialDarkTheme;

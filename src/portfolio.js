@@ -1,3 +1,5 @@
+import resumePdf from "./assets/documents/Sainik_Khaddar_Resume.pdf";
+
 /* Change this file to get your personal Porfolio */
 
 // Website related settings
@@ -9,7 +11,7 @@ const settings = {
 const seo = {
   title: "Sainik's Portfolio",
   description:
-    "DevOps engineer blending cloud, CI/CD, and scalable backend integrations to build resilient systems that drive real-world impact",
+    "Software Engineer with 2.5+ years building scalable backend systems, REST APIs, microservices, and cloud-native applications in C#/.NET and TypeScript.",
   og: {
     title: "Sainik Khaddar Portfolio",
     type: "website",
@@ -23,9 +25,10 @@ const greeting = {
   logo_name: "sainik",
   //nickname: "layman_brother",
   subTitle:
-    "DevOps engineer blending cloud, CI/CD, and scalable backend integrations to build resilient systems that drive real-world impact",
+    "Software Engineer building scalable backend systems and cloud-native applications in C#/.NET, ASP.NET Core, TypeScript, React, and React Native.",
   resumeLink:
     "https://drive.google.com/file/d/1XjCcD8iBRi4kBl2B3JAc_un4Fya8ziv0/view",
+  resumeDownloadLink: resumePdf,
   portfolio_repository: "https://github.com/sainikcodes24x7/masterPortfolio",
   githubProfile: "https://github.com/sainikcodes24x7",
 };
@@ -87,7 +90,7 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "DevOps & Cloud Infra Architecture",
+      title: "Cloud-Native Backend Engineering",
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Designing and implementing end-to-end CI/CD pipelines with Azure DevOps YAML for zero-downtime deployments, hands-on experience on multi cloud platform (Azure/AWS),",
@@ -281,7 +284,7 @@ const competitiveSites = {
       style: {
         color: "#F79F1B",
       },
-      profileLink: "https://leetcode.com/u/drunkenPlayboy/",
+      profileLink: "https://leetcode.com/u/sainikkhaddar_/",
     },
     {
       siteName: "HackerRank",
@@ -293,8 +296,8 @@ const competitiveSites = {
     },
 
     {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
+      siteName: "LeetCode",
+      iconifyClassname: "simple-icons:leetcode",
       style: {
         color: "#1F8ACB",
       },
@@ -453,7 +456,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I am currently working as a DevOps Engineer and Associate Software Engineer at PwC. I have also worked with many evolving startups as DevOps Engineer and Software Architect as a part of my internships.",
+    "Software Engineer with 2.5+ years of experience building scalable backend systems, microservices, REST APIs, event-driven services, and cloud-native applications.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -461,17 +464,133 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "DevOps Engineer + Software Developer",
+          title: "Lead Software Engineer (Associate)",
           company: "PricewaterhouseCoopers (PwC India)",
-          company_url: "https://www.tiktok.com/en/",
+          company_url: "https://www.pwc.in/",
           logo_path: "pwclogo.jpg",
-          duration: "August 2024 - Present",
+          duration: "May 2024 - Present",
           location: "Kolkata, India",
           description: [
-            "I have designed and implemented end-to-end DevOps solutions across the Power Platform and cloud-native ecosystems, including CI/CD pipelines for PowerApps with zero-downtime deployments, rollback automation, and environment-specific configurations.",
-            "\n I developed and integrated secure, scalable C# .NET APIs between Salesforce and SAP, deploying them as Azure Function Apps, and further containerized APIs with automated image builds, vulnerability scanning, and AKS deployments via Helm.",
-            "\n I optimized Kubernetes workloads with auto-scaling, health probes, resource quotas, and secure config management, significantly reducing deployment time and eliminating drift.",
-            "\nAdditionally, I automated Azure SQL data migrations with ETL pipelines, ensuring schema integrity and audit compliance, while also delivering CI/CD automation for full-stack Node.js and React apps using Docker, AKS, Terraform, ARM, and Ansible—integrating Azure Key Vault for secure, faster, and more reliable deployments.",
+            {
+              area: "B2B E-Commerce Client · Microservices Backend",
+              summary:
+                "Engineered a 13-service ASP.NET Core platform with 110+ EF Core entities, repository patterns, AutoMapper, API version gating, and centralized exception logging.",
+              impact: [
+                "30% faster feature delivery",
+                "40% lower MTTR",
+                "3,500+ retailers · ₹8–10 Cr monthly GMV",
+              ],
+            },
+            {
+              area: "B2B E-Commerce Client · Distributor Operations",
+              summary:
+                "Architected a React 18/TypeScript dispatch console using MUI DataGrid, TanStack Query, Redux Toolkit, and drag-and-drop planning across 15 warehouses and ~8,000 daily orders.",
+              impact: [
+                "3–4 hours → under 5 minutes",
+                "65% fewer pick-pack errors",
+                "35% higher throughput",
+              ],
+            },
+            {
+              area: "B2B E-Commerce Client · Referral & Loyalty",
+              summary:
+                "Built a secure referral system across ASP.NET Identity and a .NET 8 Azure Function, with cryptographic codes, idempotent batch processing, OAuth 2.0, and Dynamics 365 synchronization.",
+              impact: [
+                "22% more net-new signups",
+                "₹1.4 Cr+ incremental GMV",
+                "18% lower CAC · 99.6% sync rate",
+              ],
+            },
+            {
+              area: "B2B E-Commerce Client · GST Dispatch Platform",
+              summary:
+                "Unified four dispatch workflows into an idempotent, trip-scoped SO→TO and GST E-Way Bill platform with one-click E-Way Bill and Delivery Challan exports.",
+              impact: [
+                "₹4 Cr+/month movement enabled",
+                "40 hours/week saved",
+                "₹12 lakh/month inventory recovered",
+              ],
+            },
+            {
+              area: "B2B E-Commerce Client · Search Performance",
+              summary:
+                "Re-architected Azure Cognitive Search and Redis caching with versioned multi-tenant keys, barcode lookup, cache-poisoning protection, and real-time inventory enrichment.",
+              impact: [
+                "63% lower p95 latency",
+                "58% → 84% cache hit rate",
+                "9% higher conversion · ₹60–75 L/month",
+              ],
+            },
+            {
+              area: "B2B E-Commerce Client · Mobile & Delivery",
+              summary:
+                "Built a React Native/TypeScript data layer with Redux Toolkit, 112+ TanStack Query hooks, resilient JWT refresh, Branch.io deep links, and Docker-to-Azure CI/CD for mobile and backend releases.",
+              impact: [
+                "50+ managed query keys",
+                "Android 16KB compliance",
+                "Play Store & App Store delivery",
+              ],
+            },
+            {
+              area: "D2C E-Commerce Client · Distributed Platform",
+              summary:
+                "Architected 12+ .NET 6/8 services behind Ocelot API Gateway with JWT/RBAC, plus bulk CSV pipelines using EFCore.BulkExtensions and Azure Blob Storage.",
+              impact: [
+                "99.9% uptime · 3× peak traffic",
+                "50K+ rows in under 90 seconds",
+                "120 → 300+ distributors",
+              ],
+            },
+            {
+              area: "D2C E-Commerce Client · Payments & Subscriptions",
+              summary:
+                "Integrated PayU with SHA512 callbacks and an idempotent payment state machine, then delivered recurring subscriptions and geolocation-based serviceability.",
+              impact: [
+                "91% → 97.5% payment success",
+                "₹1.8 Cr+ recurring monthly GMV",
+                "75% fewer undeliverable orders",
+              ],
+            },
+            {
+              area: "D2C E-Commerce Client · Data & Notifications",
+              summary:
+                "Optimized SQL Server/EF Core across 97 repositories and built an FCM + WATI notification hub handling ~400K customer messages each month.",
+              impact: [
+                "63% faster APIs · 35% lower DB CPU",
+                "₹1.5 L/month infrastructure saved",
+                "₹25 L/month cart value recovered",
+              ],
+            },
+            {
+              area: "Pharmaceutical Client · Event-Driven Middleware",
+              summary:
+                "Architected event-driven contract-lifecycle middleware using .NET 8 Azure Functions, HTTP/Timer/Service Bus triggers, decoupled queues, at-least-once delivery, and exponential retries across SAP Ariba, Icertis, and SAP ECC.",
+              impact: [
+                "7 days → under 2 hours",
+                "40 hours/week eliminated",
+                "₹4,500 Cr procurement supported",
+              ],
+            },
+            {
+              area: "Pharmaceutical Client · Enterprise Integrations",
+              summary:
+                "Built resilient HttpClientFactory/Polly clients and an exactly-once Dapper synchronization layer across SAP, Azure SQL, and Salesforce using idempotent upserts and SQL locking.",
+              impact: [
+                "92% fewer duplicate postings",
+                "500K+ records/day · 99.9% accuracy",
+                "$120M+ annual revenue supported",
+              ],
+            },
+            {
+              area: "Pharmaceutical Client · Cloud Observability",
+              summary:
+                "Owned Azure DevOps YAML delivery, ARM-provisioned infrastructure, App Insights tracing, local Azure emulation, processing state machines, and centralized audit logging.",
+              impact: [
+                "60% lower detection time",
+                "30% YoY volume growth",
+                "Zero added operational overhead",
+              ],
+            },
           ],
 
           color: "#000000",
@@ -492,6 +611,27 @@ const experience = {
     {
       title: "Internships",
       experiences: [
+        {
+          title: "DevOps Engineer Intern",
+          company: "Bespoke Labs-AI",
+          company_url: "https://www.bespokelabs.ai/",
+          logo_path: "bespoke-labs.png",
+          duration: "Apr 2023 - May 2023",
+          location: "California, USA · Remote",
+          description: [
+            {
+              area: "Production-Grade Local DevOps Environment",
+              summary:
+                "Deployed a FastAPI and PostgreSQL microservice stack with Prometheus/Grafana observability via Helm on Kubernetes, then engineered a Docker-in-Docker k3d image that bootstraps the cluster, installs charts, and exposes every endpoint.",
+              impact: [
+                "Single-image environment bootstrap",
+                "Reproducible Kubernetes stack",
+                "End-to-end observability",
+              ],
+            },
+          ],
+          color: "#ff5a2f",
+        },
         {
           title: "Junior Software Engineer",
           company: "Ezage.ai",
@@ -575,7 +715,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create full stack scalable applications and deploy them to using cloud infrastructure.",
+    "Backend, full-stack, and applied AI projects built around scalable architecture, dependable APIs, practical product workflows, and production-minded delivery.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -590,7 +730,7 @@ const publications = {
   data: [
     {
       id: "neuro-symbolic-sudoku-solver",
-      name: "DevOps Roadmap",
+      name: "System Design & LLD Roadmap",
       createdAt: "Go-Live in September",
       description:
         "An extensive 5 months roadmap covering from basics to advanced with proper hands-on",
@@ -621,7 +761,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "sainikProfile.JPG",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with devops, cloud and backend development.",
+      "I am available across the links below and usually reply within 24 hours. I can help with backend engineering, C#/.NET systems, APIs, microservices, integrations, and cloud-native applications.",
   },
   blogSection: {
     title: "Blogs",

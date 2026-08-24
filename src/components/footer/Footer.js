@@ -8,8 +8,14 @@ export default function Footer(props) {
   return (
     <div className="footer-div">
       <Fade>
+        <div className="footer-signature">
+          <span>&lt;/&gt;</span> {greeting.title} <i /> Software Engineer
+        </div>
+        <p className="footer-built">
+          Built with &lt;3 using React, JavaScript &amp; CSS
+        </p>
         <p className="footer-text" style={{ color: props.theme.secondaryText }}>
-          Made with <span role="img">❤️</span> by {greeting.title}
+          © {new Date().getFullYear()} {greeting.title}. All rights reserved.
         </p>
         {/* <ToggleSwitch theme={props.theme} onToggle={props.onToggle}/> */}
       </Fade>

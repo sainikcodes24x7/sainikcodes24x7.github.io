@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import OpensourceCharts from "../../containers/opensourceCharts/OpensourceCharts";
 import Organizations from "../../containers/organizations/Organizations";
@@ -12,7 +11,6 @@ class Opensource extends Component {
   render() {
     return (
       <div className="opensource-main">
-        <Header theme={this.props.theme} />
         <Organizations theme={this.props.theme} />
         <OpensourceCharts theme={this.props.theme} />
         <PullRequests theme={this.props.theme} />

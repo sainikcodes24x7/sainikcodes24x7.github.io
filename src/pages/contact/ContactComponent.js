@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
@@ -20,7 +19,6 @@ class Contact extends Component {
     const theme = this.props.theme;
     return (
       <div className="contact-main">
-        <Header theme={theme} />
         <div className="basic-contact">
           <Fade bottom duration={1000} distance="40px">
             <div className="contact-heading-div">

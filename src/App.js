@@ -4,6 +4,7 @@ import Main from "./containers/Main";
 import { ThemeProvider } from "styled-components";
 import { chosenTheme } from "./theme";
 import { GlobalStyles } from "./global";
+import PortfolioChatbot from "./components/portfolioChatbot/PortfolioChatbot";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <GlobalStyles />
         <div>
           <Main theme={chosenTheme} />
+          <PortfolioChatbot />
         </div>
       </>
     </ThemeProvider>
