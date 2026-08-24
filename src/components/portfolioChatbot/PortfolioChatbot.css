@@ -79,10 +79,11 @@
   overflow: hidden;
   border: 1px solid #66301d;
   border-radius: 16px;
-  color: #d9d7d3;
+  color: #f0efeb;
   background: #171818;
   box-shadow: 0 30px 90px rgba(0, 0, 0, 0.62), 0 0 60px rgba(255, 90, 47, 0.05);
-  font-family: "Courier New", monospace;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", monospace;
   animation: chatbotOpen 190ms ease-out;
 }
 .chat-header {
@@ -124,15 +125,18 @@
   gap: 6px;
 }
 .chat-identity b {
-  color: #f0eeea;
-  font-size: 16px;
+  color: #fffdfa;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
 }
 .chat-identity b::first-letter {
   color: #ff5a2f;
 }
 .chat-identity small {
-  color: #00cf6f;
-  font-size: 11px;
+  color: #20e789;
+  font-size: 13px;
+  font-weight: 600;
 }
 .chat-controls {
   display: flex;
@@ -179,9 +183,11 @@
   padding: 18px 20px;
   border: 1px solid #333534;
   border-radius: 7px 24px 24px 24px;
-  color: #d7d6d3;
-  background: #1c1d1d;
-  font: 14px/1.65 "Courier New", monospace;
+  color: #f0efeb;
+  background: #1d1f1f;
+  font: 500 16px/1.65 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", monospace;
+  letter-spacing: 0.005em;
   white-space: pre-wrap;
 }
 .chat-message.user {
@@ -200,18 +206,21 @@
   margin: 6px 0 22px 52px;
 }
 .chat-suggestions button {
-  padding: 15px 17px;
-  border: 1px solid #6d321f;
+  padding: 16px 18px;
+  border: 1px solid #914225;
   border-radius: 8px;
-  color: #df5c34;
-  background: #2a1b17;
+  color: #ff8a64;
+  background: #301d18;
   cursor: pointer;
-  font: 12px/1.35 "Courier New", monospace;
+  font: 600 14px/1.45 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", monospace;
+  letter-spacing: 0.005em;
   text-align: left;
 }
 .chat-suggestions button:hover {
-  border-color: #a64925;
-  background: #342019;
+  border-color: #d35a31;
+  color: #ffad92;
+  background: #3b2119;
 }
 .typing-dots {
   display: flex;
@@ -245,20 +254,22 @@
   box-shadow: 0 0 0 4px rgba(255, 90, 47, 0.06);
 }
 .chat-input-form > span {
-  color: #ff5a2f;
-  font: 16px/1 monospace;
+  color: #ff714b;
+  font: 700 18px/1 monospace;
 }
 .chat-input-form input {
   min-width: 0;
   height: 49px;
   border: 0;
   outline: 0;
-  color: #e7e4df;
+  color: #fffdfa;
   background: transparent;
-  font: 14px/1 monospace;
+  font: 500 16px/1.35 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", monospace;
 }
 .chat-input-form input::placeholder {
-  color: #465062;
+  color: #8993a3;
+  opacity: 1;
 }
 .chat-input-form button {
   width: 48px;
@@ -289,10 +300,11 @@
   padding: 0 20px;
   border: 1px solid #71321d;
   border-radius: 9px;
-  color: #ff6840;
-  background: #281915;
+  color: #ff8964;
+  background: #301c17;
   cursor: pointer;
-  font: 14px/1 "Courier New", monospace;
+  font: 600 16px/1.35 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", monospace;
   text-align: left;
   transition: border-color 160ms ease, background 160ms ease,
     transform 160ms ease;
@@ -300,7 +312,8 @@
 .direct-message-trigger:hover {
   transform: translateY(-2px);
   border-color: #b84a25;
-  background: #321d17;
+  color: #ffb09a;
+  background: #3b2119;
 }
 .direct-message-trigger b {
   font-weight: 400;
@@ -517,14 +530,14 @@
   .chat-message p {
     max-width: 88%;
     padding: 14px 15px;
-    font-size: 12px;
+    font-size: 14px;
   }
   .chat-suggestions {
     margin-left: 40px;
   }
   .chat-suggestions button {
     padding: 13px;
-    font-size: 10px;
+    font-size: 12px;
   }
   .direct-message-flow {
     margin-left: 0;
@@ -589,7 +602,7 @@
   .direct-message-trigger {
     min-height: 48px;
     padding: 0 14px;
-    font-size: 12px;
+    font-size: 13px;
   }
   .chat-input-form {
     padding-left: 11px;
